@@ -1,17 +1,3 @@
-class StackIterator:
-    def __init__(self, it_obj, it_type):
-        # it_type : 0 is normal iterator, 1 is destructive iterator
-        #
-        self.type = it_type
-        self.obj = it_obj
-        print "I was created"
-
-    def next(self):
-        #if self.type == 0:
-            
-        print "I am here "
-        raise StopIteration()
-
 class Stack:
     def __init__(self):
         self.destructive_mode = False
